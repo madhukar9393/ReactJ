@@ -1,10 +1,12 @@
 import React ,{Component} from 'react';
+//Hello How R U
 import Usr from './Usr';
 class Users extends Component{
     state={
     users:[{name:"madhu",age:25},
             {name:"Suresh",age:85},
-            {name:"Fish",age:89}],
+            {name:"Fish",age:89},
+        {name:"Dhoni",age:36}],
             title:"Bombay"
     }
     makeYes=()=>{
